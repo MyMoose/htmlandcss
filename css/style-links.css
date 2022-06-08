@@ -1,0 +1,63 @@
+body{
+    background-color: #a7dbe3;
+    background-image: url(../assets/images/fabric.webp);
+    color: #2f4c5c;
+    font-size: 21px;    
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
+}
+
+h1{
+    font-size: 70px;
+    color: #3447b3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;    
+
+    color: firebrick;
+}
+
+a{
+    color: black;
+}
+
+#firsta{
+    text-decoration: none;
+}
+
+/* MUST BE IN THIS ORDER TO WORK PROPERLY */
+
+/* pseudo class */
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: green;    
+}
+
+a:hover{
+    color: yellow;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* pressing tabs (accessibility issues) */
+a:focus{
+    color: orange;
+    font-family: sans-serif;
+    
+}
+
+/* when clicked */
+a:active{
+    color: indianred;
+}

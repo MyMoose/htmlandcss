@@ -1,0 +1,47 @@
+body{
+    background-image: url(../assets/images/fabric.webp)
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box1{
+    background: red;
+    float: left;
+}
+.box2{
+    background: orange;
+    float: left;
+}
+.box3{
+    background: yellow;
+    float: left;
+}
+.box4{
+    background: green;
+    float: left;
+    clear: both;
+}
+.box5{
+    background: blue;
+    float: left;
+}
+.box6{
+    background: darkblue;
+    float: left;
+}
+.box7{
+    background: purple;
+    float: left;
+}
+
+p{
+    background-color: bisque;
+    font-size: 21px;
+    margin-top: 0;    
+    line-height: 1.4;
+    
+}

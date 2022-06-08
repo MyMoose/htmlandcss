@@ -1,0 +1,64 @@
+body{
+    background-color: #a7dbe3;
+    background-image: url(../assets/images/fabric.webp);
+    color: #2f4c5c;
+    font-size: 21px;
+
+    /* 
+    https://www.cssfontstack.com/
+    font stack - left to right, if doesn't load it chooses right font 
+    in quotation marks if longer than one word
+    */
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
+}
+
+h1{
+    font-size: 70px;
+    color: #3447b3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+p{  
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    /* 
+    1 makes it equal to font size 
+    2 would be double spacing
+    */
+    line-height: 2;
+
+    font-size: 25px;
+    font-style: italic;
+    
+    text-align: center;
+    
+    
+}
+
+/*
+    lighter, bold, bolder, normal
+*/
+
+.bolder{
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+.bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.normal{
+    font-weight: normal;
+    text-decoration: overline;
+}
+.lighter{
+    font-weight: lighter;
+    text-transform: uppercase;
+}

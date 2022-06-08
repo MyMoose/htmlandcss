@@ -1,0 +1,36 @@
+body{
+    background-image: url(../assets/images/fabric.webp);
+
+    text-align: center;
+}
+
+#order-default{
+    list-style-image: url(../assets/images/olicon.png);
+    color: white;
+    list-style-position:inside;
+}
+
+#order-style{
+    list-style-type: upper-roman;
+    background-color: pink;
+    padding: 30px;
+    
+}
+
+#unorder-style{
+    list-style-type: square;
+    background: lightblue;
+    padding: 30px;
+}
+
+ol li {
+    background: red;
+    margin-bottom: 5px;
+}
+
+.un-li{
+    background: blue;
+    margin-top: 10px;
+    color: white;
+    list-style-position:inside;
+}

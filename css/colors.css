@@ -1,0 +1,60 @@
+body{
+    background-image: url(../assets/images/fabric.webp);
+    
+}
+
+
+
+
+
+.box{
+    width: 100px;
+    height: 100px;    
+}
+.box1{
+    background: red;  
+}
+.box2{
+    background: orange;   
+}
+.box3{
+    background: yellow;   
+}
+.box4{
+    background: lime;    
+}
+.box5{
+    background: green;    
+}
+.box6{
+    background: blue;   
+}
+.box7{
+    background: darkblue;    
+    
+} 
+.box8{
+    background: rgb(0, 150, 255); 
+    opacity: 0.3;
+    width: 300px;
+    height: 300px; 
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+.box9{
+    background: rgba(255, 0, 0, 0.3); 
+    width: 300px;
+    height: 300px;    
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.color-code-url{
+    margin-top: 50px;    
+    font-size: 21px;
+}
+
+.color-code-url a{
+    margin-right: 20px;
+}

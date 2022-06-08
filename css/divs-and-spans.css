@@ -1,0 +1,35 @@
+body{
+    background-color: #a7dbe3;
+    color: white;
+    font-size: 21px;
+}
+
+p{
+    color: #2f4c5c;
+}
+
+h1{
+    font-size: 70px;
+    color: #3747b3;
+}
+
+div{
+    background: pink;
+    
+}
+
+#firstdiv{
+    width: 500px;
+    height: 500px;
+}
+
+#seconddiv{
+    width: 500px;
+}
+
+/* put it inside div or p to target certain sentences */
+span{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+}

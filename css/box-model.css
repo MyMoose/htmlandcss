@@ -1,0 +1,104 @@
+body{
+    background-color: #a7dbe3;
+    
+    color: white;
+    font-size: 21px;
+}
+
+h1{
+    font-size: 70px;
+    color: #3747b3;
+}
+
+p{
+    color: #2f4c5c;
+}
+
+/* the CSS box model */
+
+/*designpatterns.com*/
+
+/*  
+    box 
+    Padding - creates space with background color / empty space WITH background around my element
+    Border - a border / stroke / around my element
+    Margin - creates insivible space all around the box / creates space without background color / empty space around my element
+    
+    
+
+    ALL of these ADD on top of the width and height
+*/
+
+.box{
+    background: pink;
+    background-image: url(../assets/images/design.webp);
+    width: 300px;
+
+    margin: 100px;
+
+    /* METHOD 1 */
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+
+    /* METHOD 2 */
+    /*
+    border: 5px solid green;
+    */
+
+    border-left: 5px solid green;
+
+    /*
+    clockwise from top - 
+    padding: 10px 50px 100px 25px;
+    */
+    padding-top: 10px;    
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-left: 25px;    
+
+    /* total of 300 + 100 + 100 + 5 + 5 + 25 + 50 = 585px */
+
+}
+
+.box-with-images{
+    background-image: url("https://th.bing.com/th/id/OIP.XZWu7fRHEFQE32wqqiPUbwAAAA?pid=ImgDet&rs=1");
+    width: 300px;
+    margin:100px;
+    border: 10px solid green;
+    padding: 200px;
+
+    background-repeat: repeat-x;
+}
+
+.box-with-images-two{
+    background-image: url(../assets/images/colorflower.jpg);   
+    width: 300px;
+    margin:100px;
+    border: 10px solid pink;
+    padding: 200px;
+
+    background-repeat: no-repeat;
+}
+
+.box-with-images-three{
+    background-image: url(../assets/images/colorflower.jpg);   
+    width: 300px;
+    margin:100px;
+    border: 10px solid pink;
+    padding: 200px;
+
+    /* contain, cover, */
+    background-size: contain;    
+}
+
+.box-with-images-four{
+    background-image: url(../assets/images/colorflower.jpg);   
+    width: 300px;
+    margin:100px;
+    border: 10px solid pink;
+    padding: 200px;
+
+    /* bottom, right-bottom, etc*/
+    background-position: center;
+}
